@@ -1,0 +1,83 @@
+@import 'variable';
+
+.widgettitle {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.widget {
+  list-style: none;
+  margin-bottom: 30px;
+
+  a {
+    color: $dark;
+    opacity: 1;
+    text-decoration: none;
+    transition: .3s ease;
+  }
+
+  a:hover {
+    opacity: .6;
+  }
+
+  li {
+    padding: .5em 0;
+  }
+}
+
+.nl-sidebar {
+  .widgettitle {
+    margin-bottom: 30px;
+    color: $cyan;
+  }
+
+  .widget ul,
+  .widget form{
+    text-transform: capitalize;
+    list-style: none;
+    border-left: 1px solid $grey;
+    padding: 15px 0 15px 30px;
+    margin-bottom: 30px;
+
+    a {
+      color: $dark;
+      opacity: 1;
+      text-decoration: none;
+      transition: .3s ease;
+    }
+  }
+}
+
+.widget_search form {
+  width: 100%;
+
+  input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid $grey;
+
+    &:focus {
+      border: 1px solid $cyan;
+      outline: none;
+      transition: .5s;
+    }
+  }
+}
+
+.widget_archive ul li a,
+.widget_categories ul li a {
+  float: left;
+}
+
+.widget_archive ul li,
+.widget_categories ul li {
+  text-align: right;
+  color: $cyan;
+}
+
+.widget_recent_comments ul li span,
+.widget_recent_entries ul li a {
+  display: block;
+}

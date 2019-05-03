@@ -1,0 +1,353 @@
+/*
+Theme Name: Winter Blues
+Author: Huseyn A.
+Description: Winter Blues is mainstream theme for multipurpose use cases. It's fast, beautiful and customizable. Winter Blues also have it's own social icons widget.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: winter-blues
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, sticky-post, blog, education, news
+*/
+
+@import 'reset';
+@import 'article';
+@import 'main';
+@import 'footer';
+@import 'variable';
+@import 'comments';
+@import 'widget';
+@import 'header';
+@import 'social';
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main::after,
+.container::after,
+.nl-sidebar:after,
+.group::after,
+.nl-post::after,
+.widget_categories ul li::after,
+.widget_archive ul li::after,
+.post-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: $dark;
+}
+
+#content {
+  position: absolute;
+  z-index: 99;
+  top: 60px;
+  width: 100%;
+  -webkit-box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  color: $dark;
+  font-weight: 400;
+}
+
+
+
+svg {
+  display: block;
+  width: auto;
+  height: 22px;
+  fill: $fafa;
+}
+
+
+
+#fa-x {
+  display: none;
+}
+
+article h1 {
+  font-family: 'Lora', 'serif';
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.widget ul li a:hover {
+  color: $cyan;
+}
+
+.so-item {
+  position: relative;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+@media only screen and (min-width: 576px) {
+
+
+  .branding {
+    padding-left: 15px;
+  }
+
+  .sbutton {
+    padding-right: 15px;
+  }
+
+
+  .container {
+    padding: 0 15px;
+    margin-bottom: 60px;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+
+  .main {
+    float: left;
+    width: 69%;
+
+
+
+    span {
+      text-align: center;
+    }
+  }
+
+
+  .nl-sidebar {
+    float: right;
+    width: 27%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+
+  .mbutton {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+  .container {
+    margin-top: 30px;
+    padding: 0 18px;
+  }
+
+  .main {
+    max-width: 380px !important;
+  }
+
+  .nl-permalink {
+
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .nl-excerpt {
+    font-size: .95em;
+
+  }
+
+  .nl-meta {
+
+    font-size: .9em;
+    padding: 3px 0 9px 0;
+  }
+
+  .nl-date {
+
+    font-size: .9em;
+
+  }
+
+  .nl-thumbnail {
+    margin-bottom: 15px;
+    width: 100%;
+    float: none;
+  }
+
+  .post-info {
+
+    width: 100%;
+    float: none;
+  }
+
+  .nl-post {
+    margin-bottom: 30px;
+  }
+
+  .copy-text {
+    font-size: .9em;
+  }
+
+  .branding {
+    padding-left: 15px;
+  }
+
+  .sbutton {
+    padding-right: 15px;
+  }
+
+
+
+  .sbox {
+    width: 100%;
+  }
+
+  .brand-off {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+
+
+  .main {
+    float: none;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 730px;
+    margin-bottom: 45px;
+  }
+
+  .nl-sidebar {
+
+    float: none;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    border-top: 1px solid $grey;
+    padding-top: 30px;
+
+
+
+
+    .widgettitle {
+      text-align: center;
+    }
+
+    .widget ul,
+    .widget form {
+      padding-right: 30px;
+    }
+
+    .widget form {
+      padding: 0;
+      border: 0;
+    }
+
+    .widget ul {
+      border: 1px solid $grey;
+    }
+  }
+
+  header {
+    position: absolute;
+    z-index: 444;
+  }
+
+  #menu {
+    display: none;
+
+  }
+
+  .topnav li a {
+    font-size: 1.1em;
+    padding-right: 67px;
+    text-align: right;
+    font-weight: 500;
+    color: $grey;
+  }
+
+  .topnav li {
+    border-right: 1px solid $grey;
+
+    line-height: normal;
+    width: 100%;
+    color: $fafa;
+  }
+
+  .topnav ul {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    z-index: 10;
+    left: 0;
+  }
+
+  .navrap {
+    top: 0;
+    left: 0;
+    background: $dark;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+
+  }
+
+  .mbutton {
+    color: #fafafa;
+    top: 0;
+    font-size: 1.2em;
+    padding-right: 18px;
+    margin: 20px 0;
+    position: absolute;
+    right: 50px;
+    transition: .3s ease;
+    z-index: 666;
+  }
+
+  .sbox {
+    padding-right: 90px;
+  }
+}

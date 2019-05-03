@@ -1,0 +1,80 @@
+.metabox-holder .htmega_label_none th{
+    display: none;
+}
+
+#htmega_element_tabs table tr,#htmega_thirdparty_element_tabs table tr {
+  border: 1px solid #ddd;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 15%;
+  padding: 0 20px;
+}
+
+#htmega_element_tabs table tr td,#htmega_thirdparty_element_tabs table tr td,#htmega_element_tabs table tr th,#htmega_thirdparty_element_tabs table tr th{
+    padding-right: 0;
+}
+
+#htmega_element_tabs table tr.htmega_title_row,#htmega_thirdparty_element_tabs table tr.htmega_title_row {
+  border: medium none;
+  display: block;
+  width: 100%;
+}
+
+#htmega_element_tabs table tr.htmega_title_row h2,#htmega_thirdparty_element_tabs table tr.htmega_title_row h2{
+    margin: 0;
+}
+
+#htmega_element_tabs table tr.htmega_title_row td,#htmega_thirdparty_element_tabs table tr.htmega_title_row td {
+  padding: 0;
+}
+
+/* Check box */
+.htmega_element_checkbox label {
+    padding: 2px;
+    width: 43px;
+    height: 15px;
+    background-color: #2c3e50;
+    border-radius: 60px;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    position: relative;
+    text-indent: -99999px;
+}
+.htmega_element_checkbox label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+.htmega_element_checkbox label::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    width: 18px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    -webkit-transition: margin 0.2s, background 0.2s;
+    transition: margin 0.2s, background 0.2s;
+}
+.htmega_element_checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.htmega_element_checkbox input:checked + label {
+    background-color: #22b9ff;
+}
+.htmega_element_checkbox input:checked + label::after {
+    background-color: #22b9ff;
+    margin-left: 23px;
+}

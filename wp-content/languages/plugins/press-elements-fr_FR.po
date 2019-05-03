@@ -1,0 +1,801 @@
+# Translation of Plugins - Press Elements &#8211; Widgets for Elementor - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Press Elements &#8211; Widgets for Elementor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-07 12:58:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Press Elements &#8211; Widgets for Elementor - Stable (latest release)\n"
+
+#: widgets/post-terms.php:80
+msgid "Separator"
+msgstr "Séparateur"
+
+#: press-elements-admin.php:312
+msgid "Post Featured Image"
+msgstr "Image mise en avant d’article"
+
+#: press-elements-admin.php:273
+msgid "We put together this quick start guide to help first time users of the plugin. Our goal is to get you up and running in no time. Let's begin!"
+msgstr "Nous avons mis en place ce guide de démarrage pour aider les utilisateurs qui débutent avec cette extension. Notre objectif est de vous aider à vous lancer rapidement. Commençons !"
+
+#: press-elements-admin.php:271
+msgid "Usage"
+msgstr "Usage"
+
+#: widgets/typing-effect.php:297
+msgid "Style Suffix"
+msgstr "Suffixe du style"
+
+#: widgets/typing-effect.php:255
+msgid "Style Prefix"
+msgstr "Préfixe du style"
+
+#: widgets/typing-effect.php:392
+msgid "Cursor Color"
+msgstr "Couleur du curseur"
+
+#: widgets/typing-effect.php:381
+msgid "Style Cursor"
+msgstr "Style du curseur"
+
+#: widgets/typing-effect.php:339
+msgid "Style Strings"
+msgstr "Style des chaînes"
+
+#: widgets/typing-effect.php:241
+msgid "Cursor Char"
+msgstr "Caractère du curseur"
+
+#: widgets/typing-effect.php:228
+msgid "Show Cursor"
+msgstr "Afficher le curseur"
+
+#: widgets/typing-effect.php:215
+msgid "Loop"
+msgstr "Boucle"
+
+#: widgets/typing-effect.php:195
+msgid "Time before back-spacing (ms)"
+msgstr "Temps avant le retour-arrière (ms)"
+
+#: widgets/typing-effect.php:175
+msgid "Time before typing starts (ms)"
+msgstr "Temps avant le début de la frappe (ms)"
+
+#: widgets/typing-effect.php:155
+msgid "Back-spacing Speed (ms)"
+msgstr "Vitesse du retour-arrière (ms)"
+
+#: widgets/typing-effect.php:135
+msgid "Speed (ms)"
+msgstr "Vitesse (ms)"
+
+#: widgets/typing-effect.php:108
+msgid "Settings"
+msgstr "Réglages"
+
+#: widgets/typing-effect.php:70
+msgid "Suffix Text"
+msgstr "Texte du suffixe"
+
+#: widgets/typing-effect.php:61
+msgid "Prefix Text"
+msgstr "Texte du préfixe"
+
+#: widgets/typing-effect.php:89
+msgid "with a beautiful animation"
+msgstr "avec une superbe animation"
+
+#: widgets/typing-effect.php:86
+msgid "and then delete them"
+msgstr "et supprimer les"
+
+#: widgets/typing-effect.php:83
+msgid "Type out sentences"
+msgstr "Taper vos phrases"
+
+#: widgets/typing-effect.php:79 widgets/typing-effect.php:95
+msgid "Text"
+msgstr "Texte"
+
+#: widgets/typing-effect.php:54
+msgid "Content"
+msgstr "Contenu"
+
+#: press-elements.php:290
+msgid "PHP"
+msgstr "PHP"
+
+#: press-elements.php:107 press-elements.php:124
+msgid "Cheatin&#8217; huh?"
+msgstr "Une fausse manipulation ?"
+
+#: press-elements-admin.php:322 widgets/typing-effect.php:34
+msgid "Typing Effect"
+msgstr "Effet de frappe"
+
+#. Author URI of the plugin/theme
+msgid "https://press-elements.com/"
+msgstr "https://press-elements.com/"
+
+#: widgets/post-featured-image.php:129
+msgid "Media File URL"
+msgstr "URL du fichier média"
+
+#: widgets/post-featured-image.php:79
+msgid "Image Size"
+msgstr "Taille de l’image"
+
+#: widgets/pinterest.php:27 widgets/pinterest.php:43
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: widgets/notes.php:32 widgets/notes.php:48
+msgid "Notes"
+msgstr "Notes"
+
+#: widgets/image-accordion.php:35 widgets/image-accordion.php:51
+msgid "Image Accordion"
+msgstr "Image Accordéon"
+
+#: widgets/flickr.php:27 widgets/flickr.php:43
+msgid "Flickr"
+msgstr "Flickr"
+
+#: widgets/before-after-effect.php:34 widgets/before-after-effect.php:55
+msgid "Before After Effect"
+msgstr "Effet avant après"
+
+#: widgets/advanced-custom-fields.php:81 widgets/before-after-effect.php:65
+#: widgets/flickr.php:53 widgets/gravatar.php:55 widgets/image-accordion.php:61
+#: widgets/notes.php:58 widgets/pinterest.php:53
+#: widgets/post-custom-field.php:69
+msgid "Press Elements Pro"
+msgstr "Press Elements Pro"
+
+#. translators: %s: Press Elements Pro
+#: widgets/advanced-custom-fields.php:80 widgets/before-after-effect.php:64
+#: widgets/flickr.php:52 widgets/gravatar.php:54 widgets/image-accordion.php:60
+#: widgets/notes.php:57 widgets/pinterest.php:52
+#: widgets/post-custom-field.php:68
+msgid "This feature is only available on \"%s\"."
+msgstr "Cette fonctionnalité est uniquement disponible sur « %s »."
+
+#. translators: %s: Plugin name
+#: widgets/advanced-custom-fields.php:60
+msgid "This feature requires \"%s\" plugin to be installed and active."
+msgstr "Cette fonctionnalité nécessite l’extension « %s » installée et activée."
+
+#: widgets/advanced-custom-fields.php:57
+msgid "Pugin is Missing"
+msgstr "L’extension est manquante"
+
+#: press-elements.php:318
+msgid "Press Elements Pro Integrations"
+msgstr "Intégrations pro de Press Elements"
+
+#: press-elements.php:315
+msgid "Press Elements Pro Effects"
+msgstr "Effets pro de Press Elements"
+
+#: press-elements-admin.php:230 press-elements-admin.php:232
+msgid "Display Pinterest pins based on Pinterest username."
+msgstr "Affiche les épinglés Pinterest selon un nom d’utilisateur Pinterest."
+
+#: press-elements-admin.php:221 press-elements-admin.php:223
+msgid "Display Flickr photostream based on Flickr User ID."
+msgstr "Afficher l’album photo Flickr selon l’identifiant utilisateur Flickr."
+
+#: press-elements-admin.php:321
+msgid "Notes (Pro)"
+msgstr "Notes (Pro)"
+
+#: press-elements-admin.php:320
+msgid "Before After Effect (Pro)"
+msgstr "Effet avant après (Pro)"
+
+#: press-elements-admin.php:319
+msgid "Image Accordion (Pro)"
+msgstr "Image Accordéon (Pro)"
+
+#: press-elements-admin.php:317
+msgid "Effects:"
+msgstr "Effets :"
+
+#: press-elements-admin.php:85
+msgid "Account"
+msgstr "Compte"
+
+#: press-elements-admin.php:86
+msgid "Pricing"
+msgstr "Tarification"
+
+#: widgets/gravatar.php:29 widgets/gravatar.php:45
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#: widgets/advanced-custom-fields.php:33 widgets/advanced-custom-fields.php:51
+#: widgets/advanced-custom-fields.php:61 widgets/advanced-custom-fields.php:71
+msgid "Advanced Custom Fields"
+msgstr "Advanced Custom Fields"
+
+#: press-elements-admin.php:212 press-elements-admin.php:214
+msgid "Display Gravatars based on an email address."
+msgstr "Afficher les Gravatars basés sur une adresse de messagerie."
+
+#: press-elements-admin.php:330
+msgid "Pinterest (Pro)"
+msgstr "Pinterest (Pro)"
+
+#: press-elements-admin.php:329
+msgid "Flickr (Pro)"
+msgstr "Flickr (Pro)"
+
+#: press-elements-admin.php:328
+msgid "Gravatar (Pro)"
+msgstr "Gravatar (Pro)"
+
+#: press-elements-admin.php:327
+msgid "Advanced Custom Fields (Pro)"
+msgstr "Advanced Custom Fields (Pro)"
+
+#: press-elements-admin.php:325
+msgid "Integrations:"
+msgstr "Intégrations :"
+
+#: press-elements-admin.php:269
+msgid "With Press Elements you can use Elementor widgets to display and design your post elements! Just like developers use theme-functions to generate themes. How cool is that?!"
+msgstr "Avec Press Elements vous pouvez utiliser les widgets d’Elementor pour afficher et concevoir les éléments de vos publications ! Tout comme les développeurs utilisent des fonctions-thèmes pour générer des thèmes. N’est-ce pas cool ? !"
+
+#: press-elements-admin.php:130
+msgid "Press Elements combines the simplicity of Elementor with the efficiency of the built-in WordPress theme components."
+msgstr "Press Elements combine la simplicité d’Elementor avec l’efficacité des composants de thème WordPress intégrés."
+
+#: widgets/post-author.php:272 widgets/post-featured-image.php:208
+#: widgets/site-logo.php:196
+msgid "Angle (deg)"
+msgstr "Angle (deg)"
+
+#: press-elements-admin.php:203 press-elements-admin.php:205
+msgid "Custom fields as text fields and images, and linking to other custom fields."
+msgstr "Champs personnalisés sous forme de champs texte et d’images, et liens vers d’autres champs personnalisés."
+
+#: press-elements-admin.php:194 press-elements-admin.php:196
+msgid "Site counters for Post Types, Taxonomies, Comments and Users."
+msgstr "Compteurs de site pour les types de contenus, taxonomies, commentaires et utilisateurs."
+
+#: press-elements-admin.php:267
+msgid "You don't need to hire developers to generate custom page templates - with Press Elements you can do it using a simple drag & drop interface! Now you can design different templates for different blog posts, pages and other Post Types. When creating new posts, load your predefined templates from your template library."
+msgstr "Vous n’avez pas besoin de développeurs pour générer des modèles de page personnalisés - avec Press Elements vous pouvez le faire par une simple interface de glisser-déposer ! Maintenant vous pouvez concevoir différents modèles pour différentes publications (articles de blog, pages ou autre types de contenu). Lorsque vous créez de nouvelles publications, chargez vos modèles prédéfinis à partir de votre bibliothèque de modèles."
+
+#: press-elements-admin.php:265
+msgid "With Press Elements you can create custom designs with post elements and save them as template. When you apply the template on other posts, it will inherit the data from the new post. No more manual updates!"
+msgstr "Avec Press Elements vous pouvez créer des design sur mesure avec les éléments de publication et les enregistrer comme modèles. Lorsque vous appliquez le modèle sur d’autres publications, il hérite des données de la nouvelle publication. Aucune mise à jour manuelle !"
+
+#: press-elements-admin.php:263
+msgid "When using page builders, you need to create all the page element for each page over and over again. Currently you can't design single page templates and apply the design on the post. When you use the template system you need to manually change titles and images for each post/page."
+msgstr "Lorsque vous utilisez des constructeurs de page, vous devez créer tous les éléments de la page pour chaque page encore et encore. Actuellement vous ne pouvez pas concevoir des modèles de page uniques et appliquer le design sur la publication. Lorsque vous utilisez un système de modèle, vous devez modifier manuellement les titres et images pour chaque publication."
+
+#: press-elements-admin.php:259
+msgid "For example, you can bulk edit several posts from your sites dashboard to change the author, post that use \"Post Author\" widget will be automatically updates with the new data."
+msgstr "Par exemple, vous pouvez modifier en masse plusieurs publications à partir du tableau de bord de votre site pour modifier l’auteur, la publication qui utilise le widget « Auteur d’article » sera automatiquement mis à jour avec les nouvelles données."
+
+#: press-elements-admin.php:257
+msgid "When you change post titles and other post elements from your WordPress dashboard (outside of Elementor), they will be automatically updated in the content area and in the page builder."
+msgstr "Lorsque vous modifiez les titres des publications ou d’autres éléments des publications à partir de votre tableau de bord WordPress (en dehors d’Elementor), ils seront automatiquement mis à jour dans la zone de contenu et dans le constructeur de page."
+
+#: press-elements-admin.php:249
+msgid "That's where Press Elements comes in handy. The plugin adds smart widgets that let you display those post components. Now you can drag a \"Post Title\" widget and style it your way. The widget will automatically insert the title used as the post title. Same applies for all the other post components."
+msgstr "C’est là que Press Elements est utile. L’extension ajoute des widgets intelligents qui vous permettent d’afficher ces composants de publication. Maintenant vous pouvez faire glisser un widget « Titre de l’article » et lui appliquer le style que vous souhaitez. Le widget insérera automatiquement le titre utilisé comme titre de publication. La même chose s’applique à tous les composants de publication."
+
+#: press-elements-admin.php:247
+msgid "In the Elementor page builder you can't display and style those components. You need to repeat the process and manually add a title, write the excerpt and add images."
+msgstr "Dans le constructeur de page Elementor vous ne pouvez pas afficher et appliquer un style à ces composants. Vous devez répéter le processus et manuellement ajouter un titre, rédiger l’extrait et ajouter des images."
+
+#: press-elements-admin.php:245
+msgid "When you create a new post (or a page) on WordPress, you choose a title, write an excerpt, select a publish date, add an author, choose featured image, select several taxonomies and maybe you define some custom fields."
+msgstr "Quand vous créez un nouvel article (ou une page) dans WordPress, vous choisissez un titre, rédigez un extrait, sélectionnez une date de publication, ajoutez un auteur, choisissez une image mise en avant, sélectionnez une ou plusieurs taxonomies et éventuellement vous définissez quelques champs personnalisés."
+
+#: press-elements-admin.php:243
+msgid "WordPress Elements"
+msgstr "Éléments WordPress"
+
+#. #-#-#-#-#  press-elements-code.pot (Press Elements - Widgets for Elementor
+#. 1.7.2)  #-#-#-#-#
+#. Description of the plugin/theme
+#: press-elements-admin.php:126 press-elements-freemius.php:63
+msgid "Easy-to-use widgets that help you display and design your content using Elementor page builder."
+msgstr "Des widgets faciles à utiliser qui vous aide à afficher et mettre en forme votre contenu en utilisant le constructeur de page Elementor."
+
+#. #-#-#-#-#  press-elements-code.pot (Press Elements - Widgets for Elementor
+#. 1.7.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: press-elements-admin.php:62 press-elements-admin.php:124
+#: press-elements-freemius.php:63
+msgid "Press Elements - Widgets for Elementor"
+msgstr "Press Elements - Widgets for Elementor"
+
+#: widgets/post-author.php:318 widgets/post-featured-image.php:248
+#: widgets/site-logo.php:236
+msgid "Border Radius"
+msgstr "Rayon de bordure"
+
+#: widgets/post-author.php:307 widgets/post-featured-image.php:240
+#: widgets/site-logo.php:228
+msgid "Image Border"
+msgstr "Bordure d’image"
+
+#: widgets/post-author.php:248 widgets/post-featured-image.php:187
+#: widgets/site-logo.php:175
+msgid "Opacity (%)"
+msgstr "Opacité (%)"
+
+#: widgets/post-author.php:223 widgets/post-featured-image.php:165
+#: widgets/site-logo.php:153
+msgid "Size (%)"
+msgstr "Taille (%)"
+
+#: widgets/site-counters.php:213
+msgid "Label"
+msgstr "Libellé"
+
+#: widgets/site-counters.php:163
+msgid "Number"
+msgstr "Nombre"
+
+#: widgets/site-counters.php:77 widgets/site-counters.php:272
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: widgets/site-counters.php:76 widgets/site-counters.php:278
+msgid "Comments"
+msgstr "Commentaires"
+
+#: widgets/site-counters.php:74 widgets/site-counters.php:85
+msgid "Post Type"
+msgstr "Type de contenu"
+
+#: widgets/site-counters.php:70
+msgid "Display"
+msgstr "Afficher"
+
+#: widgets/post-date.php:73
+msgid "Last Modified Date"
+msgstr "Date de dernière modification"
+
+#: widgets/post-date.php:72
+msgid "Publish Date"
+msgstr "Date de publication"
+
+#: widgets/post-date.php:69
+msgid "Date Type"
+msgstr "Type de date"
+
+#: widgets/post-comments.php:68
+msgid "No custom styling can be applied as each theme uses it's own CSS classes and IDs."
+msgstr "Aucun style personnalisé ne peut être appliqué car chaque thème utilise ses propres classes et identifiants CSS."
+
+#: widgets/post-comments.php:66
+msgid "This widget displays the default Comments Template included in the current Theme."
+msgstr "Ce widget affiche le modèle de commentaires par défaut inclus dans le thème actuel."
+
+#: widgets/post-author.php:298 widgets/post-date.php:214
+#: widgets/post-excerpt.php:201 widgets/post-featured-image.php:231
+#: widgets/post-terms.php:199 widgets/post-title.php:201
+#: widgets/site-counters.php:203 widgets/site-counters.php:253
+#: widgets/site-description.php:180 widgets/site-logo.php:219
+#: widgets/site-title.php:180
+msgid "Hover Animation"
+msgstr "Animation au survol"
+
+#: press-elements-admin.php:185 press-elements-admin.php:187
+msgid "Widgets for your site logo, site name and site description."
+msgstr "Widgets pour votre logo, nom et description du site."
+
+#: press-elements-admin.php:149 press-elements-admin.php:151
+msgid "Elementor widgets for each site and post element."
+msgstr "Widgets Elementor pour chaque site et élément de publication."
+
+#: press-elements-admin.php:140 press-elements-admin.php:142
+msgid "Post edit screen with WordPress elements."
+msgstr "Écran de modification d’article avec les éléments WordPress."
+
+#: press-elements-admin.php:302 widgets/site-counters.php:34
+#: widgets/site-counters.php:63
+msgid "Site Counters"
+msgstr "Compteurs du site"
+
+#: press-elements-admin.php:301 widgets/site-logo.php:32
+#: widgets/site-logo.php:48 widgets/site-logo.php:145
+msgid "Site Logo"
+msgstr "Logo du site"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/press-elements/"
+msgstr "https://wordpress.org/plugins/press-elements/"
+
+#: widgets/post-author.php:136 widgets/post-date.php:137
+#: widgets/post-excerpt.php:124 widgets/post-featured-image.php:123
+#: widgets/post-title.php:124 widgets/site-description.php:112
+#: widgets/site-logo.php:118 widgets/site-title.php:112
+msgid "Home URL"
+msgstr "URL de l’accueil"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-title.php:38 widgets/post-title.php:60
+#: widgets/post-title.php:158
+msgid "%s Title"
+msgstr "Titre %s"
+
+#: widgets/post-terms.php:144
+msgid "Term"
+msgstr "Terme"
+
+#: widgets/post-terms.php:69 widgets/site-counters.php:75
+#: widgets/site-counters.php:98
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-terms.php:38 widgets/post-terms.php:60
+#: widgets/post-terms.php:156
+msgid "%s Terms"
+msgstr "%s termes "
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-featured-image.php:38 widgets/post-featured-image.php:60
+#: widgets/post-featured-image.php:155
+msgid "%s Featured Image"
+msgstr "Image mise en avant %s"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-excerpt.php:38 widgets/post-excerpt.php:60
+#: widgets/post-excerpt.php:158
+msgid "%s Excerpt"
+msgstr "Extrait %s"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-date.php:38 widgets/post-date.php:60 widgets/post-date.php:171
+msgid "%s Date"
+msgstr "Date %s"
+
+#: widgets/advanced-custom-fields.php:83 widgets/before-after-effect.php:67
+#: widgets/flickr.php:55 widgets/gravatar.php:57 widgets/image-accordion.php:63
+#: widgets/notes.php:60 widgets/pinterest.php:55
+#: widgets/post-custom-field.php:71
+msgid "Upgrade Now!"
+msgstr "Mettre à niveau maintenant !"
+
+#: widgets/advanced-custom-fields.php:77 widgets/before-after-effect.php:61
+#: widgets/flickr.php:49 widgets/gravatar.php:51 widgets/image-accordion.php:57
+#: widgets/notes.php:54 widgets/pinterest.php:49
+#: widgets/post-custom-field.php:65
+msgid "Premium Feature"
+msgstr "Fonctionnalité premium"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-custom-field.php:36 widgets/post-custom-field.php:57
+msgid "%s Custom Field"
+msgstr "Champ personnalisé %s"
+
+#: widgets/typing-effect.php:219 widgets/typing-effect.php:232
+msgid "False"
+msgstr "Faux"
+
+#: widgets/typing-effect.php:218 widgets/typing-effect.php:231
+msgid "True"
+msgstr "Vrai"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-comments.php:34 widgets/post-comments.php:56
+msgid "%s Comments"
+msgstr "Commentaires %s"
+
+#: widgets/post-author.php:454
+msgid "User Image"
+msgstr "Image d’utilisateur"
+
+#: widgets/post-author.php:453
+msgid "User Bio"
+msgstr "Biographie d’utilisateur"
+
+#: widgets/post-author.php:452
+msgid "User Name"
+msgstr "Nom d’utilisateur"
+
+#: widgets/post-author.php:451
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#: widgets/post-author.php:450
+msgid "Nick Name"
+msgstr "Pseudonyme"
+
+#: widgets/post-author.php:449
+msgid "Last Name + First Name"
+msgstr "Nom + Prénom"
+
+#: widgets/post-author.php:448
+msgid "First Name + Last Name"
+msgstr "Prénom + Nom"
+
+#: widgets/post-author.php:447
+msgid "Last Name"
+msgstr "Nom"
+
+#: widgets/post-author.php:446
+msgid "First Name"
+msgstr "Prénom"
+
+#: widgets/post-author.php:181 widgets/post-date.php:181
+#: widgets/post-excerpt.php:168 widgets/post-terms.php:166
+#: widgets/post-title.php:168 widgets/site-counters.php:171
+#: widgets/site-counters.php:221 widgets/site-description.php:147
+#: widgets/site-title.php:147 widgets/typing-effect.php:263
+#: widgets/typing-effect.php:305 widgets/typing-effect.php:347
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: widgets/post-author.php:153 widgets/post-date.php:153
+#: widgets/post-excerpt.php:140 widgets/post-featured-image.php:140
+#: widgets/post-title.php:140 widgets/site-description.php:123
+#: widgets/site-logo.php:129 widgets/site-title.php:123
+msgid "https://your-link.com"
+msgstr "http://your-link.com"
+
+#: widgets/post-author.php:151 widgets/post-date.php:151
+#: widgets/post-excerpt.php:138 widgets/post-title.php:138
+#: widgets/site-description.php:121 widgets/site-logo.php:127
+#: widgets/site-title.php:121
+msgid "Link"
+msgstr "Lien"
+
+#: widgets/post-author.php:143 widgets/post-date.php:143
+#: widgets/post-excerpt.php:130 widgets/post-featured-image.php:130
+#: widgets/post-title.php:130 widgets/site-description.php:113
+#: widgets/site-logo.php:119 widgets/site-title.php:113
+msgid "Custom URL"
+msgstr "URL personnalisée"
+
+#: widgets/post-author.php:142
+msgid "Author URL"
+msgstr "URL de l’auteur"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-author.php:139 widgets/post-date.php:140
+#: widgets/post-excerpt.php:127 widgets/post-featured-image.php:126
+#: widgets/post-title.php:127
+msgid "%s URL"
+msgstr "URL %s"
+
+#: widgets/post-author.php:135 widgets/post-date.php:136
+#: widgets/post-excerpt.php:123 widgets/post-featured-image.php:122
+#: widgets/post-terms.php:143 widgets/post-title.php:123
+#: widgets/site-description.php:111 widgets/site-logo.php:117
+#: widgets/site-title.php:111
+msgid "None"
+msgstr "Aucun"
+
+#: widgets/post-author.php:131 widgets/post-date.php:132
+#: widgets/post-excerpt.php:119 widgets/post-featured-image.php:118
+#: widgets/post-featured-image.php:138 widgets/post-terms.php:139
+#: widgets/post-title.php:119 widgets/site-description.php:107
+#: widgets/site-logo.php:113 widgets/site-title.php:107
+msgid "Link to"
+msgstr "Lien vers"
+
+#: widgets/post-author.php:117 widgets/post-date.php:118
+#: widgets/post-excerpt.php:105 widgets/post-featured-image.php:104
+#: widgets/post-terms.php:125 widgets/post-title.php:105
+#: widgets/site-counters.php:147 widgets/site-description.php:93
+#: widgets/site-logo.php:99 widgets/site-title.php:93
+msgid "Justified"
+msgstr "Justifié"
+
+#: widgets/post-author.php:113 widgets/post-date.php:114
+#: widgets/post-excerpt.php:101 widgets/post-featured-image.php:100
+#: widgets/post-terms.php:121 widgets/post-title.php:101
+#: widgets/site-counters.php:143 widgets/site-description.php:89
+#: widgets/site-logo.php:95 widgets/site-title.php:89
+msgid "Right"
+msgstr "Droites"
+
+#: widgets/post-author.php:109 widgets/post-date.php:110
+#: widgets/post-excerpt.php:97 widgets/post-featured-image.php:96
+#: widgets/post-terms.php:117 widgets/post-title.php:97
+#: widgets/site-counters.php:139 widgets/site-description.php:85
+#: widgets/site-logo.php:91 widgets/site-title.php:85
+msgid "Center"
+msgstr "Centré"
+
+#: widgets/post-author.php:105 widgets/post-date.php:106
+#: widgets/post-excerpt.php:93 widgets/post-featured-image.php:92
+#: widgets/post-terms.php:113 widgets/post-title.php:93
+#: widgets/site-counters.php:135 widgets/site-description.php:81
+#: widgets/site-logo.php:87 widgets/site-title.php:81
+msgid "Left"
+msgstr "Gauche"
+
+#: widgets/post-author.php:101 widgets/post-date.php:102
+#: widgets/post-excerpt.php:89 widgets/post-featured-image.php:88
+#: widgets/post-terms.php:109 widgets/post-title.php:89
+#: widgets/site-counters.php:131 widgets/site-description.php:77
+#: widgets/site-logo.php:83 widgets/site-title.php:77
+msgid "Alignment"
+msgstr "Alignement"
+
+#: widgets/post-author.php:81 widgets/post-date.php:82
+#: widgets/post-excerpt.php:69 widgets/post-terms.php:89
+#: widgets/post-title.php:69 widgets/site-counters.php:111
+#: widgets/site-description.php:57 widgets/site-logo.php:63
+#: widgets/site-title.php:57 widgets/typing-effect.php:115
+msgid "HTML Tag"
+msgstr "Balise HTML"
+
+#: widgets/post-author.php:71
+msgid "Author"
+msgstr "Auteur"
+
+#. translators: %s: Post type singular name (e.g. Post or Page)
+#: widgets/post-author.php:40 widgets/post-author.php:62
+#: widgets/post-author.php:171
+msgid "%s Author"
+msgstr "Auteur %s"
+
+#. translators: 1: Press Elements 2: Elementor 3: Required Elementor version
+#. translators: 1: Press Elements 2: PHP 3: Required PHP version
+#: press-elements.php:267 press-elements.php:288
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "« %1$s » nécessite la version « %2$s » %3$s ou plus."
+
+#: press-elements.php:248 press-elements.php:269
+msgid "Elementor"
+msgstr "Elementor"
+
+#. translators: 1: Press Elements 2: Elementor
+#: press-elements.php:246
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "« %1$s » nécessite que « %2$s » soit installé et activé."
+
+#: press-elements.php:312
+msgid "Post Elements"
+msgstr "Éléments d’article"
+
+#: press-elements.php:309
+msgid "Site Elements"
+msgstr "Éléments de site"
+
+#: press-elements-admin.php:293
+msgid "For each new post you create, load the desired template and apply it to the post. The post will enherite the design but the elements will be updated with the current post data."
+msgstr "Pour chaque nouvelle publication que vous créez, chargez le modèle souhaité et appliquez-le à la publication. La publication héritera alors du design mais les éléments seront mis à jour avec les données de la publication courante."
+
+#: press-elements-admin.php:291
+msgid "STEP 4: Apply the design to new posts"
+msgstr "Étape 4 : Appliquez le design à de nouveaux articles"
+
+#: press-elements-admin.php:289
+msgid "You can save several templates for blogs posts, pages, and other post types. Or even several templates for a particular post type."
+msgstr "Vous pouvez enregistrer plusieurs modèles pour vos articles de blog, vos pages, ou autres types de contenus. Ou même plusieurs modèles pour un type de contenu particulier."
+
+#: press-elements-admin.php:287
+msgid "Click on the \"Add Template\" button located at the bottom, and save the design. You will see the newly created template at the \"My Templates\" tab."
+msgstr "Cliquez sur le bouton « Ajouter un modèle » localisé en bas, et enregistrez le design. Vous verrez le modèle nouvellement créé dans l’onglet « Mes modèles »."
+
+#: press-elements-admin.php:285
+msgid "STEP 3: Save the template"
+msgstr "Étape 3 : Enregistrez le modèle"
+
+#: press-elements-admin.php:283
+msgid "Use \"Press Elements\" widgets to display the post title, post excerpt, post date and the other fields used by WordPress. Don't forget to style those elements!"
+msgstr "Utilisez les widgets de «Press Elements » pour afficher le titre, l’extrait, la date de l’article et les autres champs utilisés par WordPress. N’oubliez pas d’appliquer un style à ces éléments."
+
+#: press-elements-admin.php:281
+msgid "Click the \"Edit with Elementor\" button and start designing the page layout. Design a page header, footer, and the content area."
+msgstr "Cliquez sur le bouton « Modifier avec Elementor » et commencez à concevoir votre mise en page. Concevez un en-tête et un pied de page et la zone de contenu."
+
+#: press-elements-admin.php:279
+msgid "STEP 2: Design your own template"
+msgstr "Étape 2 : Concevez votre propre modèle"
+
+#: press-elements-admin.php:277
+msgid "Navigate to \"Posts\" > \"Add New\" to create a new post. Enter a post title, write an excerpt, select a featured image, set an author, select a publish date and publish the post."
+msgstr "Accédez à Articles>Ajouter pour créer un nouvel article. Saisissez un titre pour l’article, rédigez un extrait, sélectionnez une image mise en avant, définissez un auteur, sélectionnez une date de publication et publiez l’article."
+
+#: press-elements-admin.php:275
+msgid "STEP 1: Create a new post"
+msgstr "Étape 1 : Créez un nouvel article"
+
+#: press-elements-admin.php:176 press-elements-admin.php:178
+msgid "Create your own author bio section."
+msgstr "Créez votre propre section biographie d’auteur."
+
+#: press-elements-admin.php:167 press-elements-admin.php:169
+msgid "Display post custom fields."
+msgstr "Afficher les champs personnalisés d’article."
+
+#: press-elements-admin.php:158 press-elements-admin.php:160
+msgid "Styling post title with a dedicated Elementor widget."
+msgstr "Stylez le titre de la publication avec un widget Elementor dédié."
+
+#: press-elements-admin.php:255
+msgid "Press Elements uses dynamic content architecture. It doesn't save the title and other element as hard-coded content. It generates them on-the-fly. Just like the WordPress theme system."
+msgstr "Press Elements utilise une architecture de contenu dynamique. Il n’enregistre pas le titre et les autres éléments comme du contenu codé en dur. Il les génère à la volée. Tout comme le système de thème de WordPress."
+
+#: press-elements-admin.php:253
+msgid "Regular Elementor widgets save the data as hard-coded content in the database. To change something you need to open the page builder and manually change the element inside the builder. Updating post titles, excerpts, authors and other WordPress Element won't affect the builder."
+msgstr "Les widgets réguliers d’Elementor enregistrent les données sous forme de contenu codé en dur dans la base de données. Pour modifier quelque chose vous devez ouvrir le constructeur de page et manuellement modifier l’élément à l’intérieur du constructeur. La mise à jour des titres de publication, extraits, auteurs et autres éléments WordPress n’affectent pas le constructeur."
+
+#: press-elements-admin.php:251
+msgid "Dynamic Content"
+msgstr "Contenu dynamique"
+
+#: press-elements-admin.php:314
+msgid "Post Comments"
+msgstr "Commentaires d’article"
+
+#: press-elements-admin.php:313
+msgid "Post Custom Field (Pro)"
+msgstr "Post Custom Field (Pro)"
+
+#: press-elements-admin.php:311
+msgid "Post Terms"
+msgstr "Termes de la publication"
+
+#: press-elements-admin.php:310
+msgid "Post Author"
+msgstr "Auteur d’article"
+
+#: press-elements-admin.php:309
+msgid "Post Date"
+msgstr "Date d’article"
+
+#: press-elements-admin.php:308
+msgid "Post Excerpt"
+msgstr "Extrait d’article"
+
+#: press-elements-admin.php:307
+msgid "Post Title"
+msgstr "Titre de l’article"
+
+#: press-elements-admin.php:305
+msgid "Post Elements:"
+msgstr "Éléments de l’article :"
+
+#: press-elements-admin.php:300 widgets/site-description.php:34
+#: widgets/site-description.php:50 widgets/site-description.php:139
+msgid "Site Description"
+msgstr "Description du site"
+
+#: press-elements-admin.php:299 widgets/site-title.php:34
+#: widgets/site-title.php:50 widgets/site-title.php:139
+msgid "Site Title"
+msgstr "Titre du site"
+
+#: press-elements-admin.php:297
+msgid "Site Elements:"
+msgstr "Éléments du site :"
+
+#: press-elements-admin.php:295
+msgid "Included Widgets"
+msgstr "Widgets inclus"
+
+#: press-elements-admin.php:261
+msgid "Template Design"
+msgstr "Conception de modèle"
+
+#: press-elements-admin.php:84
+msgid "About"
+msgstr "A propos"
+
+#. #-#-#-#-#  press-elements-code.pot (Press Elements - Widgets for Elementor
+#. 1.7.2)  #-#-#-#-#
+#. Author of the plugin/theme
+#: press-elements-admin.php:63 press-elements.php:247 press-elements.php:268
+#: press-elements.php:289
+msgid "Press Elements"
+msgstr "Press Elements"

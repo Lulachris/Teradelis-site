@@ -1,0 +1,251 @@
+@import 'variable';
+
+.nl-post {
+  margin-bottom: 30px;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+
+  .overlay {
+    opacity: .2;
+  }
+}
+
+.nl-thumbnail {
+  width: 48%;
+  float: left;
+}
+
+.thumb-inner {
+  background-size: cover;
+  background-position: center;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.comment-count,
+.nl-featured {
+  position: absolute;
+  color: $fafa;
+  font-weight: 700;
+  z-index: 20;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.comment-count {
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  opacity: .5;
+  font-size: 1.3em;
+  text-decoration: none;
+  top: 15px;
+  left: 15px;
+  vertical-align: middle;
+}
+
+
+#fa-comment {
+  display: inline;
+  width: auto;
+  height: 20px;
+}
+
+.sticky .nl-featured {
+  background: $cyan;
+  letter-spacing: 0.04em;
+  padding: 0.25em 0.5em;
+  text-transform: uppercase;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.post-info {
+  width: 48%;
+  float: right;
+}
+
+.nl-permalink {
+  font-family: 'Lora', serif;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.post-info a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+
+  &:hover {
+    color: $cyan;
+  }
+}
+
+.nl-meta {
+  color: $cyan;
+  text-transform: capitalize;
+  font-size: 1em;
+  padding: 13px 0 3px 0;
+}
+
+.nl-date {
+  color: $cyan;
+  text-transform: capitalize;
+  font-size: .95em;
+  font-weight: 300;
+}
+
+.nl-meta a:hover {
+  color: $dark;
+}
+
+.thumb-inner:hover {
+  .overlay {
+    opacity: .6;
+  }
+
+  .comment-count {
+    opacity: .8;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+
+  .nav-links {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .nav-links a,
+  .nav-links span {
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    color: $grey;
+    margin-right: 3px;
+    background: $dark;
+    padding: 12px 15px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  .nav-links span {
+    background: $cyan;
+    color: $fafa;
+  }
+
+  .nav-links a {
+    background: $dark;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay {
+  top: 0;
+  width: 100%;
+  background: $dblu;
+  padding-top: 56.25%;
+  position: absolute;
+  opacity: 0.4;
+  z-index: 2;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+
+.post-password-form input[type="submit"] {
+  border: 0 solid #fff;
+  background: $cyan;
+  color: #fff;
+}
+
+
+
+
+
+
+
+.nl-main-title {
+  margin-bottom: 30px;
+  position: relative;
+
+  h1 {
+    display: inline;
+    border-left: 2px solid $cyan;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+
+  p {
+    font-weight: 300;
+    margin: 15px 0 30px 10px;
+    display: block;
+  }
+}
+
+.searchresult p {
+  font-weight: 400;
+  margin: 35px 0 15px 10px;
+  display: block;
+}
+
+.notfound-search {
+  .search-form input {
+    width: 96%;
+    margin-left: 10px;
+    padding: 10px;
+  }
+
+  form input {
+    border: 1px solid $grey;
+    outline: none;
+
+    &:focus {
+      outline: none;
+      border-color: $cyan;
+      transition: .5s;
+    }
+  }
+}

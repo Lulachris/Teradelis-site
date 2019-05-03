@@ -1,0 +1,461 @@
+/*
+Theme Name:     Shuttle Creative
+Theme URI:      https://shuttlethemes.com/features/
+Author:         Shuttle Themes
+Author URI:     https://www.shuttlethemes.com
+Description:    Shuttle Creative is the awesome free version of Shuttle Pro. It is really good for professionals. If you want to make a business, for big or small this theme is good for you. So if it is a restaurant, sport, medical, startup, corporate, business, ecommerce, portfolio, freelancers or any type of online agency or firm you will want to use this cool design. It had a multi-purpose design with widget areas in footer, so now even easy to make blog / news website which looks really clean and professional. The theme is responsive, WPML, Polylang, Retina ready, SEO friendly, and is a super design. Shuttle is fast and lightweight and can be used for any type of website, fully compatible with eCommerce plugins like WooCommerce an JigoShop. Whether you are building a website for yourself, your business or are a freelancer building websites for your cliente, Shuttle is the perfect choice. Plus if works with all the major page builders such as Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin and so much more!
+Template:       shuttle
+Version:        1.0.2
+License: GNU    General Public License v2 or later
+License URI:    https://www.gnu.org/licenses/gpl-2.0.html
+Tags:           one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, portfolio, rtl-language-support
+Text Domain:	shuttle-creative
+*/
+
+/* Pre header Style */
+#pre-header .header-links li a {
+	color: #aaa;
+}
+#pre-header-social li a {
+	color: #cdcdcd;
+}
+#pre-header-social li a:hover {
+	color: #13aff0;
+	background-color: transparent!important;
+}
+#pre-header .header-links > ul > li:before {
+	display: none;
+}
+#pre-header .header-links > ul > li {
+	border-right: 1px solid #eee;
+}
+#pre-header .header-links > ul > li:first-child {
+	border-left: 1px solid #eee;
+}
+#pre-header .header-links .sub-menu {
+	border-top: 2px solid #13aff0;
+	background-color: #f7f7f7;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+#pre-header .main-navigation .sub-menu .sub-menu {
+	top: -2px;
+	border-left: 1px solid #e7e7e7;
+}
+#pre-header .header-links .sub-menu a {
+	color: #7a7a7a;
+}
+
+/* Header Style */
+#header .header-links > ul > li a,
+#header-sticky .header-links > ul > li a {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+#header .header-links .sub-menu,
+#header-sticky .header-links .sub-menu {
+	border-bottom: none;
+	border-top: 2px solid #13aff0;
+	background-color: #f7f7f7;
+}
+.main-navigation .sub-menu .sub-menu {
+	top: -2px;
+}
+#header .header-links .sub-menu a,
+#header-sticky .header-links .sub-menu a {
+	color: #1e1e1e;
+	font-size: 11px;
+	padding: 2px 5px;
+}
+
+/* Introduce Style */
+#introaction-core .three_fourth,
+#outroaction-core .three_fourth,
+.sc-action-core .three_fourth {
+	margin-right: 0;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+#introaction-core .one_fourth,
+#outroaction-core .one_fourth,
+.sc-action-core .one_fourth {
+	float: none;
+	width: 100%;
+}
+#introaction-core,
+#outroaction-core,
+.sc-action-core {
+	background-color: transparent;
+}
+.action-text h3 {
+	font-size: 36px;
+	font-weight: 900;
+	position: relative;
+}
+.action-text h3:before {
+	width: 45px;
+	height: 2px;
+	background-color: #1e1e1e;
+	content: '';
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.action-link a {
+	display: inline-block;
+	padding: 5px 15px;
+	background-color: #1e1e1e;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 0px;
+	transition: all 0.5s;
+}
+.action-link a:hover {
+	box-shadow: none;
+	background-color: #13aff0;
+}
+
+/* Featured Style */
+.services-builder.style1 {
+	background-color: #f7f7f7;
+	border: none;
+}
+.services-builder.style1 .iconurl a {
+	display: inline-block;
+	padding: 5px 20px;
+	background-color: #1e1e1e;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 0px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+.services-builder.style1 .iconurl a:hover {
+	box-shadow: none;
+	background-color: #13aff0;
+}
+
+/* Footer Style */
+#footer {
+	background-color: #13aff0;
+	border-top: none;
+}
+#footer-core h3 {
+	font-size: 18px;
+	font-weight: 700;
+	position: relative;
+}
+#footer-core h3:before {
+	width: 45px;
+	height: 2px;
+	background-color: #1e1e1e;
+	content: '';
+	position: absolute;
+	top: -15px;
+	left: 0;
+}
+#footer .widget li a {
+	color: #1e1e1e;
+	font-weight: 500;
+}
+#footer .widget li a:hover {
+	color: #fff;
+}
+#footer .widget li a:before {
+	display: none;
+}
+#footer .widget li span {
+	color: #1e1e1e;
+	display: block;
+	font-size: 12px;
+	font-weight: 500;
+}
+#footer .widget li span a {
+	font-size: 14px;
+}
+#footer .widget_recent_entries li,
+#footer .widget_recent_comments li {
+	margin-bottom: 10px;
+}
+#footer .widget li:last-child {
+	margin-bottom: 0px;
+}
+#footer .widget li.recentcomments {
+	color: #1e1e1e;
+}
+#footer .widget_tag_cloud a {
+	background-color: #1e1e1e;
+	color: #fff;
+	border-radius: 0;
+}
+#footer .widget_tag_cloud a:hover {
+	background-color: #fff;
+	color: #1e1e1e;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=tel],
+select,
+textarea {
+	padding: 5px 15px;
+	outline: none;
+	background-color: transparent;
+	color: #1e1e1e;
+}
+#footer-core input[type=text],
+#footer-core input[type=email],
+#footer-core input[type=password],
+#footer-core select,
+#footer-core textarea {
+	border: 2px solid #1e1e1e;
+	color: #1e1e1e;
+}
+#footer-core input[type=text]:focus,
+#footer-core input[type=email]:focus,
+#footer-core input[type=password]:focus,
+#footer-core select:focus,
+#footer-core textarea:focus {
+	background-color: transparent;
+}
+
+/* Sub Footer Style */
+#sub-footer {
+	color: #1e1e1e;
+	background-color: #13aff0;
+	border-top: 1px solid rgba(250,250,250,0.2);
+}
+#sub-footer a {
+	color: #1e1e1e;
+}
+#sub-footer a:hover {
+	color: #fff;
+}
+#footer-menu li:after {
+	display: none;
+}
+
+/* Intro Page Style */
+#intro {
+	text-align: left;
+	background-image: url(./intro-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#intro .page-title span {
+	background-color: transparent;
+	padding: 0px;
+}
+#intro .page-title {
+	position: relative;
+	color: #1e1e1e;
+	margin-top: 0px;
+	font-size: 28px;
+	font-weight: 900;
+}
+#intro .page-title:before {
+	width: 45px;
+	height: 2px;
+	background-color: #1e1e1e;
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+/* Blog Posts Style */
+.blog-article.sticky .blog-title a {
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.blog-style2 #content {
+	background-color: transparent;
+}
+.blog-article.sticky .blog-title a {
+	color: #1e1e1e;
+}
+.blog-article.sticky .entry-content p {
+	color: #7a7a7a;
+}
+.blog-article.sticky .entry-content,
+.blog-style2 .blog-article .entry-content  {
+	text-align: left;
+}
+.blog-article .entry-meta {
+	margin-top: 15px;
+	background-color: #f7f7f7;
+	padding: 10px 15px;
+}
+.blog-article .entry-meta > span:before {
+	content: '|';
+}
+.blog-article.sticky .entry-meta a,
+.blog-article.sticky .entry-meta i {
+	color: #999;
+}
+.blog-article.sticky .entry-meta a:hover {
+	color: #13aff0;
+}
+.blog-article .more-link a {
+	padding: 0px;
+	background-color: transparent;
+	color: #13aff0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	transition: all 0.5s;
+}
+.blog-article .more-link a:hover {
+	background-color: transparent;
+	color: #1e1e1e;
+	box-shadow: none;
+}
+.blog-article p.more-link {
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.blog-article p {
+	margin-bottom: 0px;
+}
+
+/* Blog Page Numbers Style */
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+	border-radius: 0px;
+	border: 1px solid #eee;
+	color: #7a7a7a;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+}
+
+/* Sidebar Style */
+#sidebar h3.widget-title:before {
+	display: none;
+}
+#sidebar h3.widget-title {
+	position: relative;
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: #1e1e1e;
+	font-weight: 700;
+}
+#sidebar h3.widget-title:after {
+	width: 45px;
+	height: 2px;
+	background-color: #1e1e1e;
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 0;
+}
+#sidebar .widget_recent_entries li a:before {
+	display: none;
+}
+#sidebar .widget li span {
+	display: block;
+	font-size: 13px;
+	color: #aaa;
+}
+#sidebar .widget li a {
+	color: #1e1e1e;
+	font-size: 15px;
+	font-weight: 400;
+}
+#sidebar .widget li a:hover {
+	color: #13aff0;
+}
+#sidebar .widget_recent_entries li,
+#sidebar .widget_recent_comments li {
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+}
+#sidebar .widget li:last-child {
+	margin-bottom: 0px;
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+#sidebar .widget li {
+	border-bottom: 1px solid #eee;
+}
+#sidebar .widget_tag_cloud a {
+	border-radius: 0px;
+	background-color: #1e1e1e;
+	color: #fff;
+}
+#sidebar .widget_tag_cloud a:hover {
+	background-color: #13aff0;
+}
+
+/* Single Post Style */
+.single .entry-meta {
+	text-align: left;
+	background-color: #f7f7f7;
+	padding: 10px 15px;
+}
+.nav-previous a,
+.nav-next a {
+	text-transform: uppercase;
+	background-color: #1e1e1e;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 0px;
+	transition: all 0.5s;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	box-shadow: none;
+	background-color: #13aff0;
+}
+#nav-above,
+#nav-below {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0px;
+}
+
+/* Comments & Leave Comment Style */
+#comments-title h3,
+#reply-title {
+	font-size: 18px;
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+#commentform input[type="text"],
+#commentform textarea {
+	border-radius: 0px;
+}
+.themebutton,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#commentform input[type="submit"] {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #1e1e1e;
+	font-size: 13px;
+	font-weight: 400;
+	border-radius: 0px;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+.themebutton:hover,
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+#commentform input[type="submit"]:hover {
+	background-color: #13aff0;
+	box-shadow: none;
+}
+.comment-respond .form-submit {
+	text-align: left;
+}
+

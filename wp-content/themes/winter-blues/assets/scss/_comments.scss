@@ -1,0 +1,164 @@
+@import 'variable';
+
+#comments {
+  font-size: 1.5em;
+  margin-top: 45px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.comment-author {
+  .avatar {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+  }
+
+  b a {
+    color: #111;
+  }
+}
+
+.comment-content {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 50px 0 25px;
+    color: #444;
+    line-height: 120%;
+  }
+}
+
+.comment-body {
+  border-bottom: 1px solid $grey;
+  padding: 30px 0;
+}
+
+.comment-content,
+.comment-meta {
+  margin-bottom: 15px;
+}
+
+.comment-meta b,
+.comment-metadata a {
+  margin-left: 20px;
+}
+
+.comment-metadata {
+  margin: 3px 0;
+  font-size: .8em;
+}
+
+.comment-meta {
+  span {
+    display: none;
+  }
+}
+
+.comment-content,
+.reply {
+  margin-left: 70px;
+}
+
+.comment a {
+  color: $cyan;
+  text-decoration: none;
+}
+
+.children li .comment {
+  margin-left: 60px;
+}
+
+.comment-respond h3 {
+  font-size: 1.5em;
+  margin: 45px 0 15px 0;
+}
+
+.comment-respond {
+  margin-top: 45px;
+}
+
+.comment-form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+  text-align: left;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author img {
+	border: 3px solid $dark;
+}
+
+.comment-form label {
+  display: block;
+    margin: 15px 0;
+}
+
+.logged-in-as,
+.comment-notes{
+  margin: 15px 0 45px 0;
+  font-style: italic;
+}
+
+.logged-in-as a {
+  color: #444;
+  text-decoration: none;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"] {
+    padding: 10px;
+  margin: 0;
+width: 48%;
+
+  border-radius: 3px;
+  border: 1px solid $grey;
+  
+  &:focus {
+      outline: none;
+      border-color: $cyan;
+      transition: .5s;
+  }
+}
+
+.comment-form textarea {
+  width: 100%;
+  line-height: 1.5em;
+
+  border: 1px solid $grey;
+
+  
+  &:focus {
+      outline: none;
+      border-color: $cyan;
+      transition: .5s;
+  }
+}
+
+
+.comment-form input[type="submit"] {
+  display: block;
+  background: $dark;
+  color: $fafa;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 0;
+  border: 0 solid #fff;
+}
+
+.comment-navigation {
+  margin: 45px 0 ;
+}

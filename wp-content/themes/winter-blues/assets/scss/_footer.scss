@@ -1,0 +1,11 @@
+@import 'variable';
+
+.copy-text {
+  display: block;
+  background: $dark;
+  text-align: center;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 1em;
+  color: $grey;
+}

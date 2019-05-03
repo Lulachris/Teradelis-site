@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#blog-page-ui-tabs").tabs()});

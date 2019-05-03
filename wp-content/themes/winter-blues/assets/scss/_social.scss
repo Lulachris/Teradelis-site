@@ -1,0 +1,131 @@
+.so-item {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.svg-inline--fa {
+  display: block;
+  margin: auto;
+  font-size: 1.8em;
+  color: #fafafa;
+}
+
+.so-item:hover {
+  opacity: .8;
+}
+
+ .so-item:hover .svg-inline--fa {
+  -webkit-animation: roll 1.5s ease;
+  animation: roll 1.5s ease;
+}
+
+@-webkit-keyframes roll {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(540deg);
+    transform: rotate(540deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+}
+
+@keyframes roll {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(540deg);
+    transform: rotate(540deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(-720deg);
+    transform: rotate(-720deg);
+  }
+}
+
+.facebook {
+  background: #3b5999;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.instagram {
+  background: #833ab4;
+}
+
+.google {
+  background: #dd4b39;
+}
+
+.linkedin {
+  background: #0077B5;
+}
+
+.pinterest {
+  background: #bd081c;
+}
+
+.youtube {
+  background: #cd201f;
+}
+
+.vimeo {
+  background: #1ab7ea;
+}
+
+.periscope {
+  background: #3b5999;
+}
+
+.vine {
+  background: #00b489;
+}
+
+.tumblr {
+  background: #34465d;
+}
+
+.foopx {
+  background: #0099e5;
+}
+
+.flickr {
+  background: #f40083;
+}
+
+.behance {
+  background: #131418;
+}
+
+.wordpress {
+  background: #21759b;
+}
+
+.goodreads {
+  background: #553b08;
+}
+
+.kickstarter {
+  background: #2bde73;
+}
+
+.github {
+  background: #6e5494;
+}
+
+.rss {
+  background: #f26522;
+}
